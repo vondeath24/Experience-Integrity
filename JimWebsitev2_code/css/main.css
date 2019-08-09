@@ -1,0 +1,776 @@
+@font-face {
+  font-family: "bNeue";
+  src: url("Fonts/bNeue.eot") format("embedded-opentype"), url("Fonts/bNeue.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "cVeticaCondensed";
+  src: url("Fonts/cVeticaCondensed.ttf") format("truetype"), url("Fonts/cVeticaCondensed.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "cVeticaReg";
+  src: url("Fonts/cVeticaReg.ttf") format("truetype"), url("Fonts/cVeticaReg.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "hNeueBold";
+  src: url("Fonts/hNeueBold.ttf") format("truetype"), url("Fonts/hNeueBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "hNeueReg";
+  src: url("Fonts/hNeueReg.ttf") format("truetype"), url("Fonts/hNeueReg.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "hNeueLight";
+  src: url("Fonts/hNeueLight.ttf") format("truetype"), url("Fonts/hNeueLight.ttf") format("truetype");
+}
+
+body {
+  font-family: "hNeueReg";
+  margin: 0;
+  padding: 0;
+}
+
+body h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  letter-spacing: 0;
+}
+
+body .pColorChange {
+  color: #009BDF;
+}
+
+body .p {
+  font-family: "cVeticaReg";
+}
+
+.modal-header {
+  text-align: center;
+}
+
+.homeFirstSection {
+  background-image: url(../Images/neighborhoodHD.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homeFirstSection .row {
+  position: relative;
+}
+
+.homeFirstSection .text-center {
+  padding-bottom: 1em;
+}
+
+.thankYouSection {
+  background-image: url(../Images/neighborhoodHD.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.thankYouSection h1 {
+  color: #fafafa;
+  text-align: center;
+  margin: 0;
+  padding-top: 5em;
+}
+
+.thankYouSection a {
+  text-align: center;
+  padding-right: 2em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #009BDF;
+  font-weight: bold;
+}
+
+.thankYouSection .row {
+  position: relative;
+}
+
+.thankYouSection .text-center {
+  padding-bottom: 1em;
+}
+
+#contactUs hr {
+  display: block;
+  border-width: 2px;
+  border-color: #fafafa;
+}
+
+#contactUs h1 {
+  color: #fafafa;
+  text-align: center;
+  margin: 0;
+  padding-top: 2em;
+}
+
+#contactUs p {
+  padding-top: 1em;
+  text-align: center;
+  color: #fafafa;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#givingBack hr {
+  display: block;
+  border-width: 2px;
+  border-color: #fafafa;
+}
+
+#givingBack h1 {
+  color: #fafafa;
+  text-align: center;
+  margin: 0;
+  padding-top: 2em;
+}
+
+#givingBack p {
+  padding-top: 1em;
+  padding-right: 5em;
+  padding-left: 5em;
+  text-align: center;
+  color: #fafafa;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homeSecondSection {
+  background-color: #e0e0e0;
+  padding-bottom: 15vh;
+  background-image: url(../Images/aboutUsSectionIllustration.png);
+  background-size: cover;
+  background-repeat: none;
+}
+
+.homeSecondSection .aboutImageRight {
+  width: 60%;
+  height: 60%;
+  margin: 0;
+  padding: 0;
+  margin-left: 6em;
+  margin-top: 5em;
+}
+
+.homeSecondSection h2 {
+  font-family: "Montserrat";
+  font-size: 2.5em;
+  padding-top: 3vh;
+  text-align: center;
+}
+
+.homeSecondSection .row {
+  padding-top: 2vh;
+}
+
+.homeSecondSection .circleImg {
+  border-radius: 50%;
+}
+
+.homeSecondSection p {
+  font-family: "Montserrat";
+  text-align: center;
+  padding-top: 2em;
+  font-size: 1em;
+}
+
+.homeSecondSection .rSpace {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  text-align: center;
+}
+
+.homeSecondSection hr {
+  border-width: 3px;
+  display: block;
+  border-color: #3E3E3E;
+}
+
+.homeFourthSection {
+  background-color: #e0e0e0;
+}
+
+.homeFourthSection .whyChooseLeft {
+  width: 50%;
+  height: 70%;
+  margin: 0;
+  padding: 0;
+}
+
+.homeFourthSection .pig {
+  width: 50%;
+  height: 70%;
+  margin: 0;
+  padding: 0;
+  margin-left: 8em;
+  margin-top: 3em;
+}
+
+.homeFourthSection .network {
+  width: 100%;
+  height: 60%;
+  margin: 0;
+  padding: 0;
+}
+
+.homeFourthSection h2 {
+  font-family: "Montserrat";
+  font-size: 2.5em;
+  padding-top: 3vh;
+  text-align: center;
+}
+
+.homeFourthSection .row {
+  padding-top: 5vh;
+}
+
+.homeFourthSection p {
+  font-family: "Montserrat";
+  padding-top: 1em;
+  font-size: 1em;
+  text-align: center;
+}
+
+.homeFourthSection .rSpace {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  text-align: center;
+}
+
+.homeFourthSection hr {
+  padding-bottom: 10vh;
+  border-width: 3px;
+  display: block;
+  border-color: #3E3E3E;
+}
+
+#whatWeDo {
+  background-image: url(../Images/whatToExpect.png);
+  background-size: cover;
+  background-repeat: none;
+}
+
+#whatToExpect {
+  background-image: url(../Images/whatToExpect2.png);
+  background-size: cover;
+  background-repeat: none;
+  padding-bottom: 5em;
+  padding-top: 2em;
+}
+
+#whatToExpect h2 {
+  padding-top: 2em;
+}
+
+.homeSeventhSection {
+  padding-bottom: 5em;
+  background-color: transparent;
+  color: #DC855A;
+}
+
+.homeSeventhSection .row {
+  padding-top: 1.5vh;
+}
+
+.homeSeventhSection p {
+  padding-top: 2em;
+  padding-bottom: 3em;
+  padding-right: 7em;
+  padding-left: 7em;
+  font-size: 1em;
+  color: #fafafa;
+  text-align: center;
+}
+
+.homeSeventhSection .rSpace {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  text-align: center;
+}
+
+.homeSeventhSection hr {
+  padding-bottom: 5vh;
+  border-width: 3px;
+  display: block;
+  border-color: #fafafa;
+}
+
+.homeSeventhSection .carousel-indicators {
+  padding-top: 2em;
+}
+
+.movement1 {
+  height: 100vh;
+  width: 100%;
+}
+
+.rFirstSection {
+  background-image: url(../Images/neighborhoodHD.png);
+  background-repeat: no-repeat;
+}
+
+.rForm {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.rForm input {
+  font-family: "comfortaa";
+}
+
+.rForm .form-horizontal {
+  padding-left: 10em;
+}
+
+.rForm h2 {
+  color: #fafafa;
+  font-size: 2.5em;
+  padding-bottom: .5em;
+  padding-left: 3em;
+}
+
+.rForm label {
+  color: #fafafa;
+  letter-spacing: 1px;
+  font-size: 1.5em;
+}
+
+.rForm label p {
+  display: inline-block;
+  color: red;
+  letter-spacing: .5px;
+  font-size: .75em;
+}
+
+.rForm .haveAnAccount p {
+  color: #fafafa;
+  letter-spacing: .5px;
+  font-size: .75em;
+  padding-top: 5px;
+}
+
+.modalForm .inputText {
+  font-family: "comfortaa";
+}
+
+.modalForm .rButton p {
+  font-size: x-small;
+}
+
+#hButton {
+  font-family: "bNeue";
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 3px solid #009BDF;
+  color: #fafafa;
+  letter-spacing: 2px;
+  padding: .75em 1.25em .75em 1.25em;
+  cursor: pointer;
+}
+
+#hButton:hover {
+  background-color: #DC855A;
+}
+
+.mTitle {
+  font-family: "bNeue";
+  font-weight: normal;
+  color: #fafafa;
+  font-size: 3em;
+  padding-top: 2em;
+  text-align: center;
+}
+
+.sTitle {
+  color: #DC855A;
+  font-size: 1.75em;
+  letter-spacing: 2px;
+  padding-top: 1em;
+  padding-bottom: 20vh;
+  text-align: center;
+}
+
+nav {
+  font-family: "comfortaa";
+}
+
+.navbar {
+  padding-top: 2em;
+}
+
+.navbar ul {
+  margin-right: 3em;
+}
+
+.navbar ul li {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.navbar ul li a {
+  display: inline-block;
+  color: #fafafa !important;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar ul li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fafafa !important;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+.navbar ul li a:hover::after {
+  width: 100%;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+
+.navbar .dropdown .btn {
+  background-color: transparent;
+  color: #fafafa;
+}
+
+.navbar .dropdown .dropdown-menu {
+  background-color: transparent;
+  color: #fafafa;
+  border: none;
+}
+
+.navbar .navbutton {
+  color: #fafafa;
+}
+
+.navbar .navbar-brand {
+  margin-left: 3em;
+}
+
+.homeFooterSection {
+  position: static;
+  bottom: 0;
+}
+
+footer {
+  background-color: #2e2e2e;
+  width: 100%;
+  font-family: "comfortaa";
+  position: relative;
+  bottom: 0vh;
+}
+
+footer .footerBox {
+  margin: 0;
+  padding-left: 2em;
+}
+
+footer .footerBox .fRow1 {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+footer .footerBox .fRow1 p {
+  font-size: .75em;
+  color: #fafafa;
+  text-align: center;
+  bottom: 0;
+  padding-top: 13em;
+}
+
+footer .footerBox .fRow1 .fTitle {
+  color: #fafafa;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: "bNeue";
+}
+
+footer .footerBox .fRow1 ul {
+  padding-top: .25em;
+  list-style: none;
+}
+
+footer .footerBox .fRow1 a {
+  font-size: .75em;
+  color: #fafafa;
+}
+
+footer .footerBox .fRow2 p {
+  display: inline-block;
+  font-size: .75em;
+  color: #fafafa;
+  text-align: center;
+}
+
+.projectRow {
+  background-color: transparent;
+  margin-top: 2em;
+  border-radius: 10px;
+  min-width: 99%;
+}
+
+.projectRow h1 {
+  color: #fafafa;
+  border-width: 3px;
+  padding-bottom: 1em;
+  display: block;
+  padding-top: 0;
+}
+
+#newProjectModal h1 {
+  color: #030e19;
+}
+
+#postDeleteModal h1 {
+  color: #030e19;
+}
+
+#newProjectButton {
+  margin-top: 2em;
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 3px solid #DC855A;
+  color: #fafafa;
+  letter-spacing: 2px;
+  padding: .75em 1.25em .75em 1.25em;
+  cursor: pointer;
+}
+
+#newProjectButton:hover {
+  background-color: #009BDF;
+}
+
+.tableSpacing td {
+  font-family: 'comfortaa';
+}
+
+.tableSpacing th {
+  padding-bottom: 0;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+}
+
+.tableSpacing tbody {
+  font-size: small;
+  padding-right: 5em;
+}
+
+.tableSpacing tbody .desc {
+  min-width: 20em;
+  overflow-x: auto;
+}
+
+.tableSpacing hr {
+  border-color: #030e19;
+  border-width: 1px;
+}
+
+table.table-striped tbody tr:nth-of-type(even) {
+  background-color: #2e2e2e;
+}
+
+.profileSection {
+  background-color: #fafafa;
+  border-radius: 5px;
+}
+
+.profileSection h2 {
+  padding-top: 1em;
+  color: #030e19;
+  text-align: center;
+}
+
+.profileSection hr {
+  border-width: 2px;
+  border-color: #030e19;
+}
+
+@media screen and (min-width: 2000px) {
+  .homeFirstSection {
+    background-image: url(../Images/neighborhood4k.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .rFirstSection {
+    background-image: url(../Images/neighborhood4k.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .thankYouSection {
+    background-image: url(../Images/neighborhood4k.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .footerBox {
+    margin-top: 5em;
+  }
+  .movement1 {
+    height: 125vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar ul li a {
+    display: block;
+  }
+  .navbar ul li a::after {
+    background: none !important;
+  }
+  .dropdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .dropdown .btn {
+    background-color: transparent;
+    color: #fafafa;
+    text-align: center;
+  }
+  .dropdown .dropdown-menu {
+    background-color: transparent;
+    color: #fafafa;
+    border: none;
+    text-align: center;
+  }
+  .mTitle {
+    font-family: "bNeue";
+    font-size: 3em;
+    text-align: center;
+  }
+  .sTitle {
+    font-size: 1.75em;
+  }
+  .rForm .form-horizontal {
+    padding-left: 0em;
+  }
+  .rForm h2 {
+    padding-left: 0em;
+  }
+  .rForm label {
+    font-size: 1em;
+  }
+  .movement1 {
+    height: 130vh;
+    width: 100%;
+  }
+  .tableSpacing {
+    table-layout: fixed;
+  }
+  .tableSpacing td {
+    font-family: 'comfortaa';
+    padding: 0;
+  }
+  .tableSpacing th {
+    padding-bottom: 0;
+    font-size: xx-small;
+    letter-spacing: 2px;
+  }
+  .tableSpacing tbody {
+    font-size: xx-small;
+    padding-right: 5em;
+  }
+  .tableSpacing tbody .desc {
+    min-width: 20em;
+    overflow-x: auto;
+  }
+  .tableSpacing hr {
+    border-color: #030e19;
+    border-width: 1px;
+  }
+  .homeSeventhSection p {
+    padding-right: 3em;
+    padding-left: 3em;
+  }
+  .homeFourthSection .pig {
+    display: none;
+  }
+  .homeFourthSection .whyChooseLeft {
+    display: none;
+  }
+  .homeFourthSection .network {
+    display: none;
+  }
+  .homeSecondSection .aboutImageRight {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .navbar {
+    padding-top: 1em;
+  }
+  .navbar a {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .navbar ul {
+    margin-right: 1em;
+  }
+  .navbar .navbar-brand {
+    margin-left: 0em;
+  }
+  .mTitle {
+    font-family: "bNeue";
+    font-size: 3em;
+    text-align: center;
+  }
+  .sTitle {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar .navbar-brand {
+    max-width: 100px;
+    max-height: 70px;
+  }
+  .mTitle {
+    font-family: "bNeue";
+    font-size: 2em;
+    text-align: center;
+  }
+  .sTitle {
+    font-size: 1em;
+  }
+  .rForm .form-horizontal {
+    padding-left: 0em;
+  }
+  .rForm h2 {
+    padding-left: 0em;
+    font-size: 1.5em;
+    padding-bottom: .5em;
+  }
+  .movement1 {
+    height: 130vh;
+  }
+  .rFooter .footerBox {
+    padding-top: 1em;
+  }
+}
+/*# sourceMappingURL=main.css.map */
